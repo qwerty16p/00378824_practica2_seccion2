@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns:
+        2fr 1fr 2fr;
+    grid-template-rows: 
+        1fr 1fr 1fr;
+    gap: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    min-height: 120px ;
+    background-color: lightgrey;
+    padding: 5px;
+}
+.item{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: auto;
+    background-color: lightblue;
+    padding: 5px;
+}
+.imagen img{
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
